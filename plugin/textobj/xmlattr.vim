@@ -10,7 +10,7 @@ let s:RE_WORD = '\(\w\+\)'
 " An attribute name: `src`, `data-attr`, `strange_attr`.
 let s:RE_ATTR_NAME = '\([a-zA-Z0-9\-_:@.]\+\)'
 " A quoted string.
-let s:RE_QUOTED_STR = '\(".\{-}"\)'
+let s:RE_QUOTED_STR = '\(["''].\{-}["'']\)'
 " A {} string.
 let s:RE_Bracketed_STR = '\({.\{-}\}\)'
 " The value of an attribute: a word with no quotes or a quoted string.
